@@ -1,7 +1,14 @@
 先建立一个远程仓库，不用初始化
 
-git init  # 初始化本地仓库
-git add . # 把本地仓库的所有文件上传/放进本地仓库
-git commit -m "first commit" s # 是记录改变 描述
-git remote add origin "远程仓库的地址 e.g. /../../onetest.git" # 指定把进入本地仓库的文件上传到远程仓库地址
+git init               # 初始化本地仓库
+git add .              # 把本地仓库的所有文件上传/放进本地仓库
+git add 执行的Code.txt # 把本地仓库的特定文件上传/放进本地仓库
+git commit -m "first commit" # 是记录改变 描述
+git remote add origin "远程仓库的地址 e.g. /../../onetest.git" # 指定把进入本地仓库的文件上传到远程仓库地址， 只有第一次用
 git push -u origin master # 上传到远程仓库地址，动作
+
+新添加文件或者更新修改了的文件
+git add . /add text.txt 
+git commit -m "描述"
+git push -u
+
