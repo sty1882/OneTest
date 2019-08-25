@@ -10,5 +10,4 @@ git push -u origin master # 上传到远程仓库地址，动作
 新添加文件或者更新修改了的文件
 git add . /add text.txt 
 git commit -m "描述"
-git push -u #  or -u is not needed
-
+git push #
