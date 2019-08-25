@@ -1,5 +1,14 @@
 just for test  aaaaaaaaa
 AAAA
+<<<<<<< HEAD
 
 
 BBBB
+=======
+CCCC
+
+EEEE
+>>>>>>> 0e737e59c35b38281f52ec2829c18a0ec7988e03
+
+
+Gaigaigai
